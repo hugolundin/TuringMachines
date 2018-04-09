@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Turing machine</key>
+		<dict>
+			<key>Definition</key>
+			<string>An abstract model of a machine which performs computations. Proposed by Alan Turing in the 1930&apos;s.</string>
+		</dict>
+		<key>Tape</key>
+		<dict>
+			<key>Definition</key>
+			<string>A component in the turing machine. Also known as machine input. The turing machine goes through the input and look at one symbol at a time.</string>
+		</dict>
+		<key>Machine state</key>
+		<dict>
+			<key>Definition</key>
+			<string>A state that the turing machine can be in. The different machine states is .accepting, .accepted and .rejected. The first is while the machine is still going through the input without reaching a final state. The second on is when a final state is reached by the input. The third is when the input is finished or when no rules are defined for the current combination of state and tape character.</string>
+		</dict>
+		<key>Rule</key>
+		<dict>
+			<key>Definition</key>
+			<string>A definition of how the turing machine should behave depending on the current execution state and symbol read on the tape. A rule defines how the machine should move further on, if the current symbol on the tape position should be replaced and what execution state that should be moved to.</string>
+		</dict>
+		<key>Symbol</key>
+		<dict>
+			<key>Definition</key>
+			<string>Input accepted by the machine. Should be either .zero (represented by 0), .one (represented by 1) or .blank (represented by #).</string>
+		</dict>
+		<key>Execution state</key>
+		<dict>
+			<key>Definition</key>
+			<string>A state the machine is in during execution. Defined by the user. Can be initial and/or final. Not to be confused with the pre-defined machine states.</string>
+		</dict>
+		<key>Binary numbers</key>
+		<dict>
+			<key>Definition</key>
+			<string>Instead of having 10 different symbols while counting, you only use 1 and 0, with 2 as the base instead of 10.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
